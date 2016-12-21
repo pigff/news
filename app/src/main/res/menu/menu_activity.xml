@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/title_search"
+          android:title="search"
+          android:icon="@mipmap/ic_launcher"
+          app:actionViewClass="android.support.v7.widget.SearchView"
+          app:showAsAction="ifRoom|collapseActionView"
+        android:inputType="textCapWords"
+        android:imeOptions="actionSearch"/>
+
+    <!--<item android:id="@+id/title_download"-->
+          <!--android:title="@string/download"-->
+          <!--android:orderInCategory="2"-->
+          <!--app:showAsAction="never"/>-->
+
+    <!--<item android:id="@+id/titie_manage"-->
+          <!--android:title="@string/manage"-->
+          <!--android:orderInCategory="3"-->
+          <!--app:showAsAction="never"/>-->
+
+</menu>
