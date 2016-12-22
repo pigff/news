@@ -23,6 +23,7 @@ public class NewsListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mView = inflater.inflate(R.layout.fragment_news_list, container, false);
         init();
+
         return mView;
     }
 
